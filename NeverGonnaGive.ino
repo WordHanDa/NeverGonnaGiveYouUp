@@ -1,9 +1,7 @@
 int buzzer = 12;
-int sw = 10;
 void setup() {
   // put your setup code here, to run once:
 pinMode(buzzer,OUTPUT);
-pinMode(sw,INPUT);
 Serial.begin(9600);
 digitalWrite(10,HIGH);
 }
